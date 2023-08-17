@@ -67,6 +67,25 @@ a {
   border-radius: 5px;
 }
 
+@media (max-width: 500px) {
+  .gallery img {
+    width: 220px;
+    height: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .gallery img {
+    width: 220px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 13px;
+  }
+}
+@media (min-width: 1200px) {
+  .gallery img {
+    width: 100%;
+  }
+}
 .footer {
   text-align: center;
   margin-top: 40px;
