@@ -80,10 +80,17 @@ a {
     margin: 10px;
     border-radius: 13px;
   }
+  .gallery-pico img {
+    width: 700px;
+    height: 1200px;
+  }
 }
 @media (min-width: 1200px) {
   .gallery img {
     width: 100%;
+  }
+  .gallery-pico img {
+    width: 500px;
   }
 }
 .footer {
