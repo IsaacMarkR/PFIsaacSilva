@@ -1,0 +1,89 @@
+/* con este comando se puede poner comentarios en css*/
+
+
+body {
+    margin: auto;
+    font-family: 'PT Sans', 'sans-serif';
+}
+
+img {
+
+    display: block;
+    margin: auto;
+    font-family: 'pt sans';
+}
+
+h4, h5, p, h3 { 
+    text-align: center;
+    font-family: 'pt sans';
+
+}
+
+.home, a { 
+
+    text-align: center;
+    font-family: 'pt sans';
+    color: black;
+    text-decoration: none;
+}
+
+a{ 
+    
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    margin:30px;
+    text-shadow: 2px 5px 20px;
+    text-decoration: underline;
+   
+}
+
+.iniciologo {
+
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
