@@ -1,0 +1,53 @@
+body {margin: auto;
+}
+
+img { 
+    
+    display: block;
+    margin: auto;
+}
+
+.cabecera {
+    
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background-image: url('../imagenes/NO.\ logo.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+
+}
+
+h3, form, div { 
+    text-align: center;
+    font-family: 'pt sans';
+
+    }
+
+
+
+form {
+
+    text-decoration: overline;
+
+}
+
+/* Box modeling */
+
+.box {
+
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border: 2px;
+
+    /* border sizing
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+
+     border: 2px solid black;
+
+}
